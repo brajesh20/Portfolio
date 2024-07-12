@@ -1,8 +1,8 @@
 import React from 'react'
 import './Portfolio.css'
-import img1 from '../../assets/portfolio1.jpg'
-import img2 from '../../assets/portfolio2.jpg'
-import img3 from '../../assets/portfolio3.jpg'
+import img1 from '../../assets/personal.png'
+import img2 from '../../assets/house.jpg'
+import img3 from '../../assets/dog.jpg'
 // import img4 from '../../assets/portfolio4.jpg'
 // import img5 from '../../assets/portfolio5.png'
 // import img6 from '../../assets/portfolio6.jpg'
@@ -12,23 +12,20 @@ const data=[
   {
       "id": 1,
       "image" : img1,
-      "title" : "",
-      "github" :"",
-      "demo" : ""
+      "title" : "Portfolio",
+      "github" :"https://github.com/brajesh20/Portfolio"
   },
   {
       "id": 2,
       "image" : img2,
-      "title" : "",
-      "github" :"",
-      "demo" : ""
+      "title" : "NITW Guest House",
+      "github" :"https://github.com/brajesh20/NITW-GUEST-HOUSE"
   },
   {
       "id": 3,
       "image" : img3,
-      "title" : "",
-      "github" :"",
-      "demo" : ""
+      "title" : "Dog Care",
+      "github" :"https://github.com/brajesh20/tindog_web"
   }
 ]
 
@@ -44,12 +41,11 @@ const Portfolio = () => {
             data.map((post)=>(
               <article key={post.id} className='portfolio_item'>
                 <div className="portfolio_item-image">
-                  <img src={post.image} alt="project 1" />
+                  <img height={236} src={post.image} alt="project 1" />
                 </div>
-                <h3>{post.title}</h3>
-                <div className="portfolio_item-cta">
-                  <a href={post.github} className='btn' target='_blank' rel="noreferrer">Github</a>
-                  <a href={post.demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
+                <h3 style={{textAlign: 'center'}}>{post.title}</h3>
+                <div style={{display:'flex', justifyContent:'center', gap:'30px'}} className="portfolio_item-cta">
+                  <a href={post.github} className='btn' target='_blank' rel="noreferrer">Github</a>                
                 </div>
               </article>
             ))

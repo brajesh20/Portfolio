@@ -21,8 +21,7 @@ const Contact = () => {
 
             <article className='contact_option'>
               <FaInstagram className='contact-icon' />
-              <h4>Email</h4>
-              <h5>brajeshkumarshiv@gmail.com</h5>
+              <h4>Instagram</h4>
               <a href="https://www.instagram.com/brajesh_20_11/" target='_blank' rel="noreferrer">Send a message</a>
             </article>
 

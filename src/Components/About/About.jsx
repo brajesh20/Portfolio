@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import pic from '../../assets/me-about.jpg'
+import pic from '../../assets/file.jpg'
 import { FaAward } from 'react-icons/fa'
 import {MdDeveloperMode} from 'react-icons/md'
 import {SiCodersrank} from 'react-icons/si'

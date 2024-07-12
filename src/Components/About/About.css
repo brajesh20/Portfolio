@@ -14,7 +14,7 @@
     border-radius: 2rem;
     display: grid;
     place-items: center;
-    background: linear-gradient(45deg, transparent, var(--color-primary, transparent));
+    background: linear-gradient(45deg, transparent,rgb(163, 188, 224));
 }
 
 .about_me-image{

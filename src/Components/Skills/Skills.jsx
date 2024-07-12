@@ -51,7 +51,15 @@ const Skills = () => {
               </li>
               <li>
                 <BiCheck className='skills_list-icon' />
-                <p>ReactJs</p>
+                <p>React.js</p>
+              </li>
+              <li>
+                <BiCheck className='skills_list-icon' />
+                <p>Node.js</p>
+              </li>
+              <li>
+                <BiCheck className='skills_list-icon' />
+                <p>Express.js</p>
               </li>
             </ul>
           </article>
