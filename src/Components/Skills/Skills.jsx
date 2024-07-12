@@ -61,6 +61,10 @@ const Skills = () => {
                 <BiCheck className='skills_list-icon' />
                 <p>Express.js</p>
               </li>
+              <li>
+                <BiCheck className='skills_list-icon' />
+                <p>Mongoose</p>
+              </li>
             </ul>
           </article>
           {/* End of Languages  */}
